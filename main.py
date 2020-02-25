@@ -7,7 +7,8 @@ from constants import headers
 
 
 # Setting the order filename
-order_filename = 'order_{}'.format(datetime.now().strftime('%d%m%y'))
+# order_filename = 'order_{}'.format(datetime.now().strftime('%d%m%y'))
+order_filename = 'order'  # ToDo: Customize filename.
 
 # Opening the import file with the order
 # Format: First line is the name of the buyer and then the item list (quantity url_item)
