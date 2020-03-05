@@ -15,7 +15,7 @@ Usage
 
 Copy your list on the folder:
 
-    imports/order.txt
+    imports/<filename>.txt
 
 The list should look like this:
 
@@ -27,11 +27,11 @@ The list should look like this:
 
 Run the script:
 
-    $ python main.py
+    $ python main.py <filename>
 
 Find your order on the exports folder:
 
-    exports/order.xlsx
+    exports/<filename>.xlsx
     
 Possible future features
 ----------
