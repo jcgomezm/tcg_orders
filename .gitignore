@@ -129,3 +129,10 @@ dmypy.json
 .pyre/
 
 .idea/
+
+exports/*
+!exports/sample.xlsx
+imports/*
+!imports/sample.txt
+
+.env
